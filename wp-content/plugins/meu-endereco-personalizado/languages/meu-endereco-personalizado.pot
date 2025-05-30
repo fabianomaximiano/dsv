@@ -1,0 +1,23 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Meu Endereço Personalizado\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+
+#: admin/settings-page.php
+msgid "Adicionar Faixa de CEP"
+msgstr ""
+
+msgid "Mensagem Personalizada"
+msgstr ""
+
+msgid "Frete Grátis?"
+msgstr ""
+
+msgid "Valor do Frete"
+msgstr ""
+
+msgid "Salvar Configurações"
+msgstr ""

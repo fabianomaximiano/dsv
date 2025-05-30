@@ -1,0 +1,11 @@
+#pagespeed-auditor-form {
+    max-width: 400px;
+    margin: auto;
+}
+#pagespeed-auditor-form label,
+#pagespeed-auditor-form input,
+#pagespeed-auditor-form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,370 @@
+[30-May-2025 13:41:32 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "agend_plugin_ativar" not found or invalid function name in C:\dev\htdocs\dsv\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\dev\htdocs\dsv\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\dev\htdocs\dsv\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\dev\htdocs\dsv\wp-admin\includes\plugin.php(703): do_action('activate_plugin...', false)
+#3 C:\dev\htdocs\dsv\wp-admin\plugins.php(60): activate_plugin('plugin-agendame...', 'http://localhos...', false)
+#4 {main}
+  thrown in C:\dev\htdocs\dsv\wp-includes\class-wp-hook.php on line 324
+[30-May-2025 13:45:30 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "agend_plugin_ativar" not found or invalid function name in C:\dev\htdocs\dsv\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\dev\htdocs\dsv\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\dev\htdocs\dsv\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\dev\htdocs\dsv\wp-admin\includes\plugin.php(703): do_action('activate_plugin...', false)
+#3 C:\dev\htdocs\dsv\wp-admin\plugins.php(60): activate_plugin('plugin-agendame...', 'http://localhos...', false)
+#4 {main}
+  thrown in C:\dev\htdocs\dsv\wp-includes\class-wp-hook.php on line 324
+[30-May-2025 13:45:45 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "agend_plugin_ativar" not found or invalid function name in C:\dev\htdocs\dsv\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\dev\htdocs\dsv\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\dev\htdocs\dsv\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\dev\htdocs\dsv\wp-admin\includes\plugin.php(703): do_action('activate_plugin...', false)
+#3 C:\dev\htdocs\dsv\wp-admin\plugins.php(60): activate_plugin('plugin-agendame...', 'http://localhos...', false)
+#4 {main}
+  thrown in C:\dev\htdocs\dsv\wp-includes\class-wp-hook.php on line 324
+[30-May-2025 14:11:08 UTC] PHP Warning:  require_once(C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php): Failed to open stream: No such file or directory in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:11:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php' (include_path='C:\dev\php\PEAR') in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php:72
+Stack trace:
+#0 C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\plugin-agendamento-estetica.php(21): require_once()
+#1 C:\dev\htdocs\dsv\wp-settings.php(526): include_once('C:\\dev\\htdocs\\d...')
+#2 C:\dev\htdocs\dsv\wp-config.php(105): require_once('C:\\dev\\htdocs\\d...')
+#3 C:\dev\htdocs\dsv\wp-load.php(50): require_once('C:\\dev\\htdocs\\d...')
+#4 C:\dev\htdocs\dsv\wp-admin\admin-ajax.php(22): require_once('C:\\dev\\htdocs\\d...')
+#5 {main}
+  thrown in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:13:08 UTC] PHP Warning:  require_once(C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php): Failed to open stream: No such file or directory in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:13:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php' (include_path='C:\dev\php\PEAR') in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php:72
+Stack trace:
+#0 C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\plugin-agendamento-estetica.php(21): require_once()
+#1 C:\dev\htdocs\dsv\wp-settings.php(526): include_once('C:\\dev\\htdocs\\d...')
+#2 C:\dev\htdocs\dsv\wp-config.php(105): require_once('C:\\dev\\htdocs\\d...')
+#3 C:\dev\htdocs\dsv\wp-load.php(50): require_once('C:\\dev\\htdocs\\d...')
+#4 C:\dev\htdocs\dsv\wp-admin\admin-ajax.php(22): require_once('C:\\dev\\htdocs\\d...')
+#5 {main}
+  thrown in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:15:09 UTC] PHP Warning:  require_once(C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php): Failed to open stream: No such file or directory in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:15:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php' (include_path='C:\dev\php\PEAR') in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php:72
+Stack trace:
+#0 C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\plugin-agendamento-estetica.php(21): require_once()
+#1 C:\dev\htdocs\dsv\wp-settings.php(526): include_once('C:\\dev\\htdocs\\d...')
+#2 C:\dev\htdocs\dsv\wp-config.php(105): require_once('C:\\dev\\htdocs\\d...')
+#3 C:\dev\htdocs\dsv\wp-load.php(50): require_once('C:\\dev\\htdocs\\d...')
+#4 C:\dev\htdocs\dsv\wp-admin\admin-ajax.php(22): require_once('C:\\dev\\htdocs\\d...')
+#5 {main}
+  thrown in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:17:09 UTC] PHP Warning:  require_once(C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php): Failed to open stream: No such file or directory in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:17:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php' (include_path='C:\dev\php\PEAR') in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php:72
+Stack trace:
+#0 C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\plugin-agendamento-estetica.php(21): require_once()
+#1 C:\dev\htdocs\dsv\wp-settings.php(526): include_once('C:\\dev\\htdocs\\d...')
+#2 C:\dev\htdocs\dsv\wp-config.php(105): require_once('C:\\dev\\htdocs\\d...')
+#3 C:\dev\htdocs\dsv\wp-load.php(50): require_once('C:\\dev\\htdocs\\d...')
+#4 C:\dev\htdocs\dsv\wp-admin\admin-ajax.php(22): require_once('C:\\dev\\htdocs\\d...')
+#5 {main}
+  thrown in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:19:10 UTC] PHP Warning:  require_once(C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php): Failed to open stream: No such file or directory in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:19:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php' (include_path='C:\dev\php\PEAR') in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php:72
+Stack trace:
+#0 C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\plugin-agendamento-estetica.php(21): require_once()
+#1 C:\dev\htdocs\dsv\wp-settings.php(526): include_once('C:\\dev\\htdocs\\d...')
+#2 C:\dev\htdocs\dsv\wp-config.php(105): require_once('C:\\dev\\htdocs\\d...')
+#3 C:\dev\htdocs\dsv\wp-load.php(50): require_once('C:\\dev\\htdocs\\d...')
+#4 C:\dev\htdocs\dsv\wp-admin\admin-ajax.php(22): require_once('C:\\dev\\htdocs\\d...')
+#5 {main}
+  thrown in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:21:10 UTC] PHP Warning:  require_once(C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php): Failed to open stream: No such file or directory in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:21:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php' (include_path='C:\dev\php\PEAR') in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php:72
+Stack trace:
+#0 C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\plugin-agendamento-estetica.php(21): require_once()
+#1 C:\dev\htdocs\dsv\wp-settings.php(526): include_once('C:\\dev\\htdocs\\d...')
+#2 C:\dev\htdocs\dsv\wp-config.php(105): require_once('C:\\dev\\htdocs\\d...')
+#3 C:\dev\htdocs\dsv\wp-load.php(50): require_once('C:\\dev\\htdocs\\d...')
+#4 C:\dev\htdocs\dsv\wp-admin\admin-ajax.php(22): require_once('C:\\dev\\htdocs\\d...')
+#5 {main}
+  thrown in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:23:11 UTC] PHP Warning:  require_once(C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php): Failed to open stream: No such file or directory in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:23:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php' (include_path='C:\dev\php\PEAR') in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php:72
+Stack trace:
+#0 C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\plugin-agendamento-estetica.php(21): require_once()
+#1 C:\dev\htdocs\dsv\wp-settings.php(526): include_once('C:\\dev\\htdocs\\d...')
+#2 C:\dev\htdocs\dsv\wp-config.php(105): require_once('C:\\dev\\htdocs\\d...')
+#3 C:\dev\htdocs\dsv\wp-load.php(50): require_once('C:\\dev\\htdocs\\d...')
+#4 C:\dev\htdocs\dsv\wp-admin\admin-ajax.php(22): require_once('C:\\dev\\htdocs\\d...')
+#5 {main}
+  thrown in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:25:12 UTC] PHP Warning:  require_once(C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php): Failed to open stream: No such file or directory in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:25:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php' (include_path='C:\dev\php\PEAR') in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php:72
+Stack trace:
+#0 C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\plugin-agendamento-estetica.php(21): require_once()
+#1 C:\dev\htdocs\dsv\wp-settings.php(526): include_once('C:\\dev\\htdocs\\d...')
+#2 C:\dev\htdocs\dsv\wp-config.php(105): require_once('C:\\dev\\htdocs\\d...')
+#3 C:\dev\htdocs\dsv\wp-load.php(50): require_once('C:\\dev\\htdocs\\d...')
+#4 C:\dev\htdocs\dsv\wp-admin\admin-ajax.php(22): require_once('C:\\dev\\htdocs\\d...')
+#5 {main}
+  thrown in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:27:12 UTC] PHP Warning:  require_once(C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php): Failed to open stream: No such file or directory in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:27:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php' (include_path='C:\dev\php\PEAR') in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php:72
+Stack trace:
+#0 C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\plugin-agendamento-estetica.php(21): require_once()
+#1 C:\dev\htdocs\dsv\wp-settings.php(526): include_once('C:\\dev\\htdocs\\d...')
+#2 C:\dev\htdocs\dsv\wp-config.php(105): require_once('C:\\dev\\htdocs\\d...')
+#3 C:\dev\htdocs\dsv\wp-load.php(50): require_once('C:\\dev\\htdocs\\d...')
+#4 C:\dev\htdocs\dsv\wp-admin\admin-ajax.php(22): require_once('C:\\dev\\htdocs\\d...')
+#5 {main}
+  thrown in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:29:13 UTC] PHP Warning:  require_once(C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php): Failed to open stream: No such file or directory in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:29:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php' (include_path='C:\dev\php\PEAR') in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php:72
+Stack trace:
+#0 C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\plugin-agendamento-estetica.php(21): require_once()
+#1 C:\dev\htdocs\dsv\wp-settings.php(526): include_once('C:\\dev\\htdocs\\d...')
+#2 C:\dev\htdocs\dsv\wp-config.php(105): require_once('C:\\dev\\htdocs\\d...')
+#3 C:\dev\htdocs\dsv\wp-load.php(50): require_once('C:\\dev\\htdocs\\d...')
+#4 C:\dev\htdocs\dsv\wp-admin\admin-ajax.php(22): require_once('C:\\dev\\htdocs\\d...')
+#5 {main}
+  thrown in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:31:13 UTC] PHP Warning:  require_once(C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php): Failed to open stream: No such file or directory in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:31:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php' (include_path='C:\dev\php\PEAR') in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php:72
+Stack trace:
+#0 C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\plugin-agendamento-estetica.php(21): require_once()
+#1 C:\dev\htdocs\dsv\wp-settings.php(526): include_once('C:\\dev\\htdocs\\d...')
+#2 C:\dev\htdocs\dsv\wp-config.php(105): require_once('C:\\dev\\htdocs\\d...')
+#3 C:\dev\htdocs\dsv\wp-load.php(50): require_once('C:\\dev\\htdocs\\d...')
+#4 C:\dev\htdocs\dsv\wp-admin\admin-ajax.php(22): require_once('C:\\dev\\htdocs\\d...')
+#5 {main}
+  thrown in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:33:14 UTC] PHP Warning:  require_once(C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php): Failed to open stream: No such file or directory in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:33:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php' (include_path='C:\dev\php\PEAR') in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php:72
+Stack trace:
+#0 C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\plugin-agendamento-estetica.php(21): require_once()
+#1 C:\dev\htdocs\dsv\wp-settings.php(526): include_once('C:\\dev\\htdocs\\d...')
+#2 C:\dev\htdocs\dsv\wp-config.php(105): require_once('C:\\dev\\htdocs\\d...')
+#3 C:\dev\htdocs\dsv\wp-load.php(50): require_once('C:\\dev\\htdocs\\d...')
+#4 C:\dev\htdocs\dsv\wp-admin\admin-ajax.php(22): require_once('C:\\dev\\htdocs\\d...')
+#5 {main}
+  thrown in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:35:14 UTC] PHP Warning:  require_once(C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php): Failed to open stream: No such file or directory in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:35:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php' (include_path='C:\dev\php\PEAR') in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php:72
+Stack trace:
+#0 C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\plugin-agendamento-estetica.php(21): require_once()
+#1 C:\dev\htdocs\dsv\wp-settings.php(526): include_once('C:\\dev\\htdocs\\d...')
+#2 C:\dev\htdocs\dsv\wp-config.php(105): require_once('C:\\dev\\htdocs\\d...')
+#3 C:\dev\htdocs\dsv\wp-load.php(50): require_once('C:\\dev\\htdocs\\d...')
+#4 C:\dev\htdocs\dsv\wp-admin\admin-ajax.php(22): require_once('C:\\dev\\htdocs\\d...')
+#5 {main}
+  thrown in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:37:14 UTC] PHP Warning:  require_once(C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php): Failed to open stream: No such file or directory in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:37:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php' (include_path='C:\dev\php\PEAR') in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php:72
+Stack trace:
+#0 C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\plugin-agendamento-estetica.php(21): require_once()
+#1 C:\dev\htdocs\dsv\wp-settings.php(526): include_once('C:\\dev\\htdocs\\d...')
+#2 C:\dev\htdocs\dsv\wp-config.php(105): require_once('C:\\dev\\htdocs\\d...')
+#3 C:\dev\htdocs\dsv\wp-load.php(50): require_once('C:\\dev\\htdocs\\d...')
+#4 C:\dev\htdocs\dsv\wp-admin\admin-ajax.php(22): require_once('C:\\dev\\htdocs\\d...')
+#5 {main}
+  thrown in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:39:15 UTC] PHP Warning:  require_once(C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php): Failed to open stream: No such file or directory in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:39:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php' (include_path='C:\dev\php\PEAR') in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php:72
+Stack trace:
+#0 C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\plugin-agendamento-estetica.php(21): require_once()
+#1 C:\dev\htdocs\dsv\wp-settings.php(526): include_once('C:\\dev\\htdocs\\d...')
+#2 C:\dev\htdocs\dsv\wp-config.php(105): require_once('C:\\dev\\htdocs\\d...')
+#3 C:\dev\htdocs\dsv\wp-load.php(50): require_once('C:\\dev\\htdocs\\d...')
+#4 C:\dev\htdocs\dsv\wp-admin\admin-ajax.php(22): require_once('C:\\dev\\htdocs\\d...')
+#5 {main}
+  thrown in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:41:16 UTC] PHP Warning:  require_once(C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php): Failed to open stream: No such file or directory in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:41:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php' (include_path='C:\dev\php\PEAR') in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php:72
+Stack trace:
+#0 C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\plugin-agendamento-estetica.php(21): require_once()
+#1 C:\dev\htdocs\dsv\wp-settings.php(526): include_once('C:\\dev\\htdocs\\d...')
+#2 C:\dev\htdocs\dsv\wp-config.php(105): require_once('C:\\dev\\htdocs\\d...')
+#3 C:\dev\htdocs\dsv\wp-load.php(50): require_once('C:\\dev\\htdocs\\d...')
+#4 C:\dev\htdocs\dsv\wp-admin\admin-ajax.php(22): require_once('C:\\dev\\htdocs\\d...')
+#5 {main}
+  thrown in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:43:16 UTC] PHP Warning:  require_once(C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php): Failed to open stream: No such file or directory in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:43:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php' (include_path='C:\dev\php\PEAR') in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php:72
+Stack trace:
+#0 C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\plugin-agendamento-estetica.php(21): require_once()
+#1 C:\dev\htdocs\dsv\wp-settings.php(526): include_once('C:\\dev\\htdocs\\d...')
+#2 C:\dev\htdocs\dsv\wp-config.php(105): require_once('C:\\dev\\htdocs\\d...')
+#3 C:\dev\htdocs\dsv\wp-load.php(50): require_once('C:\\dev\\htdocs\\d...')
+#4 C:\dev\htdocs\dsv\wp-admin\admin-ajax.php(22): require_once('C:\\dev\\htdocs\\d...')
+#5 {main}
+  thrown in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:45:17 UTC] PHP Warning:  require_once(C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php): Failed to open stream: No such file or directory in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:45:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php' (include_path='C:\dev\php\PEAR') in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php:72
+Stack trace:
+#0 C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\plugin-agendamento-estetica.php(21): require_once()
+#1 C:\dev\htdocs\dsv\wp-settings.php(526): include_once('C:\\dev\\htdocs\\d...')
+#2 C:\dev\htdocs\dsv\wp-config.php(105): require_once('C:\\dev\\htdocs\\d...')
+#3 C:\dev\htdocs\dsv\wp-load.php(50): require_once('C:\\dev\\htdocs\\d...')
+#4 C:\dev\htdocs\dsv\wp-admin\admin-ajax.php(22): require_once('C:\\dev\\htdocs\\d...')
+#5 {main}
+  thrown in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:47:17 UTC] PHP Warning:  require_once(C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php): Failed to open stream: No such file or directory in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:47:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php' (include_path='C:\dev\php\PEAR') in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php:72
+Stack trace:
+#0 C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\plugin-agendamento-estetica.php(21): require_once()
+#1 C:\dev\htdocs\dsv\wp-settings.php(526): include_once('C:\\dev\\htdocs\\d...')
+#2 C:\dev\htdocs\dsv\wp-config.php(105): require_once('C:\\dev\\htdocs\\d...')
+#3 C:\dev\htdocs\dsv\wp-load.php(50): require_once('C:\\dev\\htdocs\\d...')
+#4 C:\dev\htdocs\dsv\wp-admin\admin-ajax.php(22): require_once('C:\\dev\\htdocs\\d...')
+#5 {main}
+  thrown in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:49:17 UTC] PHP Warning:  require_once(C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php): Failed to open stream: No such file or directory in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:49:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php' (include_path='C:\dev\php\PEAR') in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php:72
+Stack trace:
+#0 C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\plugin-agendamento-estetica.php(21): require_once()
+#1 C:\dev\htdocs\dsv\wp-settings.php(526): include_once('C:\\dev\\htdocs\\d...')
+#2 C:\dev\htdocs\dsv\wp-config.php(105): require_once('C:\\dev\\htdocs\\d...')
+#3 C:\dev\htdocs\dsv\wp-load.php(50): require_once('C:\\dev\\htdocs\\d...')
+#4 C:\dev\htdocs\dsv\wp-admin\admin-ajax.php(22): require_once('C:\\dev\\htdocs\\d...')
+#5 {main}
+  thrown in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:51:17 UTC] PHP Warning:  require_once(C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php): Failed to open stream: No such file or directory in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:51:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php' (include_path='C:\dev\php\PEAR') in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php:72
+Stack trace:
+#0 C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\plugin-agendamento-estetica.php(21): require_once()
+#1 C:\dev\htdocs\dsv\wp-settings.php(526): include_once('C:\\dev\\htdocs\\d...')
+#2 C:\dev\htdocs\dsv\wp-config.php(105): require_once('C:\\dev\\htdocs\\d...')
+#3 C:\dev\htdocs\dsv\wp-load.php(50): require_once('C:\\dev\\htdocs\\d...')
+#4 C:\dev\htdocs\dsv\wp-admin\admin-ajax.php(22): require_once('C:\\dev\\htdocs\\d...')
+#5 {main}
+  thrown in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:53:18 UTC] PHP Warning:  require_once(C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php): Failed to open stream: No such file or directory in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:53:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php' (include_path='C:\dev\php\PEAR') in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php:72
+Stack trace:
+#0 C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\plugin-agendamento-estetica.php(21): require_once()
+#1 C:\dev\htdocs\dsv\wp-settings.php(526): include_once('C:\\dev\\htdocs\\d...')
+#2 C:\dev\htdocs\dsv\wp-config.php(105): require_once('C:\\dev\\htdocs\\d...')
+#3 C:\dev\htdocs\dsv\wp-load.php(50): require_once('C:\\dev\\htdocs\\d...')
+#4 C:\dev\htdocs\dsv\wp-admin\admin-ajax.php(22): require_once('C:\\dev\\htdocs\\d...')
+#5 {main}
+  thrown in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:55:18 UTC] PHP Warning:  require_once(C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php): Failed to open stream: No such file or directory in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:55:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php' (include_path='C:\dev\php\PEAR') in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php:72
+Stack trace:
+#0 C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\plugin-agendamento-estetica.php(21): require_once()
+#1 C:\dev\htdocs\dsv\wp-settings.php(526): include_once('C:\\dev\\htdocs\\d...')
+#2 C:\dev\htdocs\dsv\wp-config.php(105): require_once('C:\\dev\\htdocs\\d...')
+#3 C:\dev\htdocs\dsv\wp-load.php(50): require_once('C:\\dev\\htdocs\\d...')
+#4 C:\dev\htdocs\dsv\wp-admin\admin-ajax.php(22): require_once('C:\\dev\\htdocs\\d...')
+#5 {main}
+  thrown in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:57:18 UTC] PHP Warning:  require_once(C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php): Failed to open stream: No such file or directory in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:57:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php' (include_path='C:\dev\php\PEAR') in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php:72
+Stack trace:
+#0 C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\plugin-agendamento-estetica.php(21): require_once()
+#1 C:\dev\htdocs\dsv\wp-settings.php(526): include_once('C:\\dev\\htdocs\\d...')
+#2 C:\dev\htdocs\dsv\wp-config.php(105): require_once('C:\\dev\\htdocs\\d...')
+#3 C:\dev\htdocs\dsv\wp-load.php(50): require_once('C:\\dev\\htdocs\\d...')
+#4 C:\dev\htdocs\dsv\wp-admin\admin-ajax.php(22): require_once('C:\\dev\\htdocs\\d...')
+#5 {main}
+  thrown in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:59:19 UTC] PHP Warning:  require_once(C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php): Failed to open stream: No such file or directory in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 14:59:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php' (include_path='C:\dev\php\PEAR') in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php:72
+Stack trace:
+#0 C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\plugin-agendamento-estetica.php(21): require_once()
+#1 C:\dev\htdocs\dsv\wp-settings.php(526): include_once('C:\\dev\\htdocs\\d...')
+#2 C:\dev\htdocs\dsv\wp-config.php(105): require_once('C:\\dev\\htdocs\\d...')
+#3 C:\dev\htdocs\dsv\wp-load.php(50): require_once('C:\\dev\\htdocs\\d...')
+#4 C:\dev\htdocs\dsv\wp-admin\admin-ajax.php(22): require_once('C:\\dev\\htdocs\\d...')
+#5 {main}
+  thrown in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 15:01:20 UTC] PHP Warning:  require_once(C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php): Failed to open stream: No such file or directory in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 15:01:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php' (include_path='C:\dev\php\PEAR') in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php:72
+Stack trace:
+#0 C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\plugin-agendamento-estetica.php(21): require_once()
+#1 C:\dev\htdocs\dsv\wp-settings.php(526): include_once('C:\\dev\\htdocs\\d...')
+#2 C:\dev\htdocs\dsv\wp-config.php(105): require_once('C:\\dev\\htdocs\\d...')
+#3 C:\dev\htdocs\dsv\wp-load.php(50): require_once('C:\\dev\\htdocs\\d...')
+#4 C:\dev\htdocs\dsv\wp-admin\admin-ajax.php(22): require_once('C:\\dev\\htdocs\\d...')
+#5 {main}
+  thrown in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 15:03:20 UTC] PHP Warning:  require_once(C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php): Failed to open stream: No such file or directory in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 15:03:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/admin/relatorios.php' (include_path='C:\dev\php\PEAR') in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php:72
+Stack trace:
+#0 C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\plugin-agendamento-estetica.php(21): require_once()
+#1 C:\dev\htdocs\dsv\wp-settings.php(526): include_once('C:\\dev\\htdocs\\d...')
+#2 C:\dev\htdocs\dsv\wp-config.php(105): require_once('C:\\dev\\htdocs\\d...')
+#3 C:\dev\htdocs\dsv\wp-load.php(50): require_once('C:\\dev\\htdocs\\d...')
+#4 C:\dev\htdocs\dsv\wp-admin\admin-ajax.php(22): require_once('C:\\dev\\htdocs\\d...')
+#5 {main}
+  thrown in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 72
+[30-May-2025 15:05:22 UTC] Automatic updates starting...
+[30-May-2025 15:05:22 UTC]   Automatic theme updates starting...
+[30-May-2025 15:05:22 UTC]   Automatic theme updates complete.
+[30-May-2025 15:05:22 UTC] Automatic updates complete.
+[30-May-2025 16:10:46 UTC] PHP Fatal error:  Cannot redeclare agend_plugin_ativar() (previously declared in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\ativador.php:5) in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\install.php on line 72
+[30-May-2025 16:35:39 UTC] PHP Warning:  require_once(C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/includes/admin/clientes.php): Failed to open stream: No such file or directory in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 70
+[30-May-2025 16:35:39 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/includes/admin/clientes.php' (include_path='C:\dev\php\PEAR') in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php:70
+Stack trace:
+#0 C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\plugin-agendamento-estetica.php(22): require_once()
+#1 C:\dev\htdocs\dsv\wp-settings.php(545): include_once('C:\\dev\\htdocs\\d...')
+#2 C:\dev\htdocs\dsv\wp-config.php(105): require_once('C:\\dev\\htdocs\\d...')
+#3 C:\dev\htdocs\dsv\wp-load.php(50): require_once('C:\\dev\\htdocs\\d...')
+#4 C:\dev\htdocs\dsv\wp-admin\admin-ajax.php(22): require_once('C:\\dev\\htdocs\\d...')
+#5 {main}
+  thrown in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 70
+[30-May-2025 16:37:39 UTC] PHP Warning:  require_once(C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/includes/admin/clientes.php): Failed to open stream: No such file or directory in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 70
+[30-May-2025 16:37:39 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/includes/admin/clientes.php' (include_path='C:\dev\php\PEAR') in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php:70
+Stack trace:
+#0 C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\plugin-agendamento-estetica.php(22): require_once()
+#1 C:\dev\htdocs\dsv\wp-settings.php(545): include_once('C:\\dev\\htdocs\\d...')
+#2 C:\dev\htdocs\dsv\wp-config.php(105): require_once('C:\\dev\\htdocs\\d...')
+#3 C:\dev\htdocs\dsv\wp-load.php(50): require_once('C:\\dev\\htdocs\\d...')
+#4 C:\dev\htdocs\dsv\wp-admin\admin-ajax.php(22): require_once('C:\\dev\\htdocs\\d...')
+#5 {main}
+  thrown in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 70
+[30-May-2025 17:09:14 UTC] PHP Warning:  require_once(C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/includes/admin/clientes.php): Failed to open stream: No such file or directory in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 70
+[30-May-2025 17:09:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/includes/admin/clientes.php' (include_path='C:\dev\php\PEAR') in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php:70
+Stack trace:
+#0 C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\plugin-agendamento-estetica.php(22): require_once()
+#1 C:\dev\htdocs\dsv\wp-settings.php(545): include_once('C:\\dev\\htdocs\\d...')
+#2 C:\dev\htdocs\dsv\wp-config.php(105): require_once('C:\\dev\\htdocs\\d...')
+#3 C:\dev\htdocs\dsv\wp-load.php(50): require_once('C:\\dev\\htdocs\\d...')
+#4 C:\dev\htdocs\dsv\wp-admin\admin-ajax.php(22): require_once('C:\\dev\\htdocs\\d...')
+#5 {main}
+  thrown in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 70
+[30-May-2025 17:09:21 UTC] PHP Warning:  require_once(C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/includes/admin/clientes.php): Failed to open stream: No such file or directory in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 70
+[30-May-2025 17:09:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/includes/admin/clientes.php' (include_path='C:\dev\php\PEAR') in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php:70
+Stack trace:
+#0 C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\plugin-agendamento-estetica.php(22): require_once()
+#1 C:\dev\htdocs\dsv\wp-settings.php(545): include_once('C:\\dev\\htdocs\\d...')
+#2 C:\dev\htdocs\dsv\wp-config.php(105): require_once('C:\\dev\\htdocs\\d...')
+#3 C:\dev\htdocs\dsv\wp-load.php(50): require_once('C:\\dev\\htdocs\\d...')
+#4 C:\dev\htdocs\dsv\wp-admin\admin.php(35): require_once('C:\\dev\\htdocs\\d...')
+#5 C:\dev\htdocs\dsv\wp-admin\plugins.php(10): require_once('C:\\dev\\htdocs\\d...')
+#6 {main}
+  thrown in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 70
+[30-May-2025 17:10:06 UTC] PHP Warning:  require_once(C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/includes/admin/clientes.php): Failed to open stream: No such file or directory in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 70
+[30-May-2025 17:10:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/includes/admin/clientes.php' (include_path='C:\dev\php\PEAR') in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php:70
+Stack trace:
+#0 C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\plugin-agendamento-estetica.php(22): require_once()
+#1 C:\dev\htdocs\dsv\wp-settings.php(545): include_once('C:\\dev\\htdocs\\d...')
+#2 C:\dev\htdocs\dsv\wp-config.php(105): require_once('C:\\dev\\htdocs\\d...')
+#3 C:\dev\htdocs\dsv\wp-load.php(50): require_once('C:\\dev\\htdocs\\d...')
+#4 C:\dev\htdocs\dsv\wp-admin\admin.php(35): require_once('C:\\dev\\htdocs\\d...')
+#5 C:\dev\htdocs\dsv\wp-admin\plugins.php(10): require_once('C:\\dev\\htdocs\\d...')
+#6 {main}
+  thrown in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 70
+[30-May-2025 19:35:17 UTC] PHP Warning:  require_once(C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/includes/admin/clientes.php): Failed to open stream: No such file or directory in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 70
+[30-May-2025 19:35:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/includes/admin/clientes.php' (include_path='C:\dev\php\PEAR') in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php:70
+Stack trace:
+#0 C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\plugin-agendamento-estetica.php(22): require_once()
+#1 C:\dev\htdocs\dsv\wp-admin\includes\plugin.php(2387): include_once('C:\\dev\\htdocs\\d...')
+#2 C:\dev\htdocs\dsv\wp-admin\includes\plugin.php(673): plugin_sandbox_scrape('plugin-agendame...')
+#3 C:\dev\htdocs\dsv\wp-admin\plugins.php(60): activate_plugin('plugin-agendame...', 'http://localhos...', false)
+#4 {main}
+  thrown in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 70
+[30-May-2025 20:02:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\public\painel-cliente.php:5
+Stack trace:
+#0 C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\public\painel-cliente.php(22): agend_painel_cliente()
+#1 C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\plugin-agendamento-estetica.php(26): require_once('C:\\dev\\htdocs\\d...')
+#2 C:\dev\htdocs\dsv\wp-settings.php(545): include_once('C:\\dev\\htdocs\\d...')
+#3 C:\dev\htdocs\dsv\wp-config.php(105): require_once('C:\\dev\\htdocs\\d...')
+#4 C:\dev\htdocs\dsv\wp-load.php(50): require_once('C:\\dev\\htdocs\\d...')
+#5 C:\dev\htdocs\dsv\wp-admin\admin-ajax.php(22): require_once('C:\\dev\\htdocs\\d...')
+#6 {main}
+  thrown in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\public\painel-cliente.php on line 5
