@@ -21,14 +21,14 @@ require_once AGEND_PLUGIN_PATH . 'includes/pages.php';
 require_once AGEND_PLUGIN_PATH . 'includes/functions.php';
 require_once AGEND_PLUGIN_PATH . 'includes/menus.php';
 
-//public
+// public
 require_once AGEND_PLUGIN_PATH . 'public/cadastro-cliente.php';
-require_once AGEND_PLUGIN_PATH . 'public/painel-cliente.php';
-
+// A linha abaixo foi comentada para evitar conflito de exibição dupla
+// require_once AGEND_PLUGIN_PATH . 'public/painel-cliente.php';
 
 // Shortcodes ainda são carregados para compatibilidade e reaproveitamento
 require_once AGEND_PLUGIN_PATH . 'shortcodes/cadastro-cliente.php';
-require_once AGEND_PLUGIN_PATH . 'shortcodes/agendamento.php';
+// require_once AGEND_PLUGIN_PATH . 'shortcodes/agendamento.php';
 require_once AGEND_PLUGIN_PATH . 'shortcodes/cadastro-profissional.php';
 require_once AGEND_PLUGIN_PATH . 'shortcodes/cadastro-servico.php';
 require_once AGEND_PLUGIN_PATH . 'shortcodes/dashboard-cliente.php';

@@ -38,6 +38,7 @@ function agend_formulario_cadastro_cliente() {
             }
         }
     }
+
     ?>
 
     <div class="wrap">
@@ -53,4 +54,10 @@ function agend_formulario_cadastro_cliente() {
 
     <?php
 }
-agend_formulario_cadastro_cliente();
+
+// ✅ Só exibe se estiver na página 'cadastro-cliente'
+add_action('template_redirect', function () {
+    if (is_page('cadastro-cliente')) {
+        add_action('wp_head', 'agend_formulario_cadastro_cliente');
+    }
+});

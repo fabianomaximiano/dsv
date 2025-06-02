@@ -5,77 +5,135 @@ if (!defined('ABSPATH')) {
 }
 
 // Adiciona menus ao admin
-add_action('admin_menu', 'agend_registrar_menus');
+// add_action('admin_menu', 'agend_registrar_menus');
 
-function agend_registrar_menus() {
+// function agend_registrar_menus() {
+//     // Menu principal
+//     add_menu_page(
+//         'Agendamento Estética',
+//         'Agendamento',
+//         'manage_options',
+//         'agend-dashboard',
+//         'agend_dashboard_page',
+//         'dashicons-calendar-alt',
+//         25
+//     );
+
+//     // Submenus
+//     add_submenu_page(
+//         'agend-dashboard',
+//         'Clientes',
+//         'Clientes',
+//         'manage_options',
+//         'agend-clientes',
+//         //'agend_admin_clientes_page'
+//         'agend_clientes_pagina'
+
+//     );
+
+//     add_submenu_page(
+//         'agend-dashboard',
+//         'Profissionais',
+//         'Profissionais',
+//         'manage_options',
+//         'agend-profissionais',
+//         'agend_admin_profissionais_page'
+//     );
+
+//     add_submenu_page(
+//         'agend-dashboard',
+//         'Serviços',
+//         'Serviços',
+//         'manage_options',
+//         'agend-servicos',
+//         'agend_admin_servicos_page'
+//     );
+
+//     add_submenu_page(
+//         'agend-dashboard',
+//         'Agendamentos',
+//         'Agendamentos',
+//         'manage_options',
+//         'agend-agendamentos',
+//         'agend_admin_agendamentos_page'
+//     );
+
+//     add_submenu_page(
+//         'agend-dashboard',
+//         'Relatórios',
+//         'Relatórios',
+//         'manage_options',
+//         'agend-relatorios',
+//         'agend_admin_relatorios_page'
+//     );
+//         add_submenu_page(
+//         'agend-dashboard',
+//         'Minha Agenda',
+//         'Minha Agenda',
+//         'read', // Permite acesso a qualquer usuário logado
+//         'agend-agenda-profissional',
+//         'agend_agenda_profissional_page'
+//     );
+
+// }
+
+
+
+add_action('admin_menu', 'agend_menu_admin');
+
+function agend_menu_admin() {
     // Menu principal
     add_menu_page(
-        'Agendamento Estética',
+        'Agendamento',
         'Agendamento',
         'manage_options',
-        'agend-dashboard',
-        'agend_dashboard_page',
+        'agendamentos',
+        'agend_render_lista_agendamentos', // função callback
         'dashicons-calendar-alt',
         25
     );
 
-    // Submenus
+    // Submenu principal (não duplica, aponta para a mesma função da principal)
     add_submenu_page(
-        'agend-dashboard',
+        'agendamentos',
+        'Agendamentos',
+        'Agendamentos',
+        'manage_options',
+        'agendamentos',
+        'agend_render_lista_agendamentos'
+    );
+
+    // Submenu: Clientes
+    add_submenu_page(
+        'agendamentos',
         'Clientes',
         'Clientes',
         'manage_options',
         'agend-clientes',
-        //'agend_admin_clientes_page'
-        'agend_clientes_pagina'
-
+        'agend_render_clientes'
     );
 
+    // Submenu: Profissionais
     add_submenu_page(
-        'agend-dashboard',
+        'agendamentos',
         'Profissionais',
         'Profissionais',
         'manage_options',
         'agend-profissionais',
-        'agend_admin_profissionais_page'
+        'agend_render_profissionais'
     );
 
+    // Submenu: Serviços
     add_submenu_page(
-        'agend-dashboard',
+        'agendamentos',
         'Serviços',
         'Serviços',
         'manage_options',
         'agend-servicos',
-        'agend_admin_servicos_page'
+        'agend_render_servicos'
     );
-
-    add_submenu_page(
-        'agend-dashboard',
-        'Agendamentos',
-        'Agendamentos',
-        'manage_options',
-        'agend-agendamentos',
-        'agend_admin_agendamentos_page'
-    );
-
-    add_submenu_page(
-        'agend-dashboard',
-        'Relatórios',
-        'Relatórios',
-        'manage_options',
-        'agend-relatorios',
-        'agend_admin_relatorios_page'
-    );
-        add_submenu_page(
-        'agend-dashboard',
-        'Minha Agenda',
-        'Minha Agenda',
-        'read', // Permite acesso a qualquer usuário logado
-        'agend-agenda-profissional',
-        'agend_agenda_profissional_page'
-    );
-
 }
+
 
 // Inclui os arquivos das páginas do admin
 require_once AGEND_PLUGIN_PATH . 'includes/admin/clientes.php';

@@ -13,14 +13,15 @@ function agend_dashboard_cliente_shortcode() {
 
     // Buscar agendamentos do cliente atual
     $agendamentos = $wpdb->get_results(
-        $wpdb->prepare("
-            SELECT a.*, s.nome AS servico_nome, s.duracao, s.preco, p.nome AS profissional_nome
-            FROM {$wpdb->prefix}agend_agendamentos a
-            LEFT JOIN {$wpdb->prefix}agend_servicos s ON a.servico_id = s.id
-            LEFT JOIN {$wpdb->prefix}agend_profissionais p ON a.profissional_id = p.id
+        $wpdb->prepare(
+            "SELECT a.*, s.nome AS servico_nome, s.duracao, s.preco, p.nome AS profissional_nome
+            FROM {$wpdb->prefix}agendamentos a
+            LEFT JOIN {$wpdb->prefix}servicos s ON a.servico_id = s.id
+            LEFT JOIN {$wpdb->prefix}profissionais p ON a.profissional_id = p.id
             WHERE a.cliente_id = %d
-            ORDER BY a.data DESC, a.hora DESC
-        ", $user_id)
+            ORDER BY a.data DESC, a.hora DESC",
+            $user_id
+        )
     );
 
     if ($agendamentos) {
