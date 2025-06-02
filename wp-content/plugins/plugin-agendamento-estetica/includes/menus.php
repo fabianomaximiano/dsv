@@ -26,7 +26,9 @@ function agend_registrar_menus() {
         'Clientes',
         'manage_options',
         'agend-clientes',
-        'agend_admin_clientes_page'
+        //'agend_admin_clientes_page'
+        'agend_clientes_pagina'
+
     );
 
     add_submenu_page(
@@ -64,6 +66,15 @@ function agend_registrar_menus() {
         'agend-relatorios',
         'agend_admin_relatorios_page'
     );
+        add_submenu_page(
+        'agend-dashboard',
+        'Minha Agenda',
+        'Minha Agenda',
+        'read', // Permite acesso a qualquer usuário logado
+        'agend-agenda-profissional',
+        'agend_agenda_profissional_page'
+    );
+
 }
 
 // Inclui os arquivos das páginas do admin
@@ -72,6 +83,7 @@ require_once AGEND_PLUGIN_PATH . 'includes/admin/profissionais.php';
 require_once AGEND_PLUGIN_PATH . 'includes/admin/servicos.php';
 require_once AGEND_PLUGIN_PATH . 'includes/admin/agendamentos.php';
 require_once AGEND_PLUGIN_PATH . 'includes/admin/relatorios.php';
+require_once AGEND_PLUGIN_PATH . 'includes/admin/agenda-profissional.php';
 
 // Página principal do painel
 function agend_dashboard_page() {

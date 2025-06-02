@@ -368,3 +368,116 @@ Stack trace:
 #5 C:\dev\htdocs\dsv\wp-admin\admin-ajax.php(22): require_once('C:\\dev\\htdocs\\d...')
 #6 {main}
   thrown in C:\dev\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\public\painel-cliente.php on line 5
+[31-May-2025 13:07:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\public\painel-cliente.php:5
+Stack trace:
+#0 C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\public\painel-cliente.php(22): agend_painel_cliente()
+#1 C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\plugin-agendamento-estetica.php(26): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dsv\wp-settings.php(545): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dsv\wp-config.php(105): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\dsv\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\dsv\wp-admin\admin.php(35): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\dsv\wp-admin\plugins.php(10): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\public\painel-cliente.php on line 5
+[31-May-2025 13:07:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\public\painel-cliente.php:5
+Stack trace:
+#0 C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\public\painel-cliente.php(22): agend_painel_cliente()
+#1 C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\plugin-agendamento-estetica.php(26): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dsv\wp-settings.php(545): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dsv\wp-config.php(105): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\dsv\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\dsv\wp-admin\admin.php(35): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\dsv\wp-admin\plugins.php(10): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\public\painel-cliente.php on line 5
+[31-May-2025 13:07:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\public\painel-cliente.php:5
+Stack trace:
+#0 C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\public\painel-cliente.php(22): agend_painel_cliente()
+#1 C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\plugin-agendamento-estetica.php(26): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dsv\wp-settings.php(545): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dsv\wp-config.php(105): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\dsv\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\dsv\wp-admin\admin.php(35): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\dsv\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\public\painel-cliente.php on line 5
+[31-May-2025 13:07:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\public\painel-cliente.php:5
+Stack trace:
+#0 C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\public\painel-cliente.php(22): agend_painel_cliente()
+#1 C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\plugin-agendamento-estetica.php(26): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dsv\wp-settings.php(545): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dsv\wp-config.php(105): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\dsv\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\dsv\wp-admin\admin.php(35): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\dsv\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\public\painel-cliente.php on line 5
+[31-May-2025 13:09:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\public\painel-cliente.php:5
+Stack trace:
+#0 C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\public\painel-cliente.php(22): agend_painel_cliente()
+#1 C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\plugin-agendamento-estetica.php(26): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dsv\wp-settings.php(545): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dsv\wp-config.php(105): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\dsv\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\dsv\wp-admin\admin.php(35): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\dsv\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\public\painel-cliente.php on line 5
+[31-May-2025 14:06:28 UTC] PHP Warning:  require_once(C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/includes/admin/agenda-profissional.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 84
+[31-May-2025 14:06:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/includes/admin/agenda-profissional.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php:84
+Stack trace:
+#0 C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\plugin-agendamento-estetica.php(22): require_once()
+#1 C:\xampp\htdocs\dsv\wp-settings.php(545): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dsv\wp-config.php(105): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dsv\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\dsv\wp-admin\admin.php(35): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\dsv\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 84
+[31-May-2025 14:09:08 UTC] Automatic updates starting...
+[31-May-2025 14:09:08 UTC] Automatic updates complete.
+[31-May-2025 14:12:11 UTC] PHP Warning:  require_once(C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/includes/admin/agenda-profissional.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 84
+[31-May-2025 14:12:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/includes/admin/agenda-profissional.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php:84
+Stack trace:
+#0 C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\plugin-agendamento-estetica.php(22): require_once()
+#1 C:\xampp\htdocs\dsv\wp-settings.php(545): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dsv\wp-config.php(105): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dsv\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\dsv\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 84
+[31-May-2025 14:14:11 UTC] PHP Warning:  require_once(C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/includes/admin/agenda-profissional.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 84
+[31-May-2025 14:14:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/includes/admin/agenda-profissional.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php:84
+Stack trace:
+#0 C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\plugin-agendamento-estetica.php(22): require_once()
+#1 C:\xampp\htdocs\dsv\wp-settings.php(545): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dsv\wp-config.php(105): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dsv\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\dsv\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 84
+[31-May-2025 14:15:51 UTC] PHP Warning:  require_once(C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/includes/admin/agenda-profissional.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 84
+[31-May-2025 14:15:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/includes/admin/agenda-profissional.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php:84
+Stack trace:
+#0 C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\plugin-agendamento-estetica.php(22): require_once()
+#1 C:\xampp\htdocs\dsv\wp-settings.php(545): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dsv\wp-config.php(105): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dsv\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\dsv\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 84
+[31-May-2025 14:15:53 UTC] PHP Warning:  require_once(C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/includes/admin/agenda-profissional.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 84
+[31-May-2025 14:15:53 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica/includes/admin/agenda-profissional.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php:84
+Stack trace:
+#0 C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\plugin-agendamento-estetica.php(22): require_once()
+#1 C:\xampp\htdocs\dsv\wp-settings.php(545): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dsv\wp-config.php(105): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dsv\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\dsv\wp-admin\admin.php(35): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\dsv\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\dsv\wp-content\plugins\plugin-agendamento-estetica\includes\menus.php on line 84
+[01-Jun-2025 22:41:40 UTC] Automatic updates starting...
+[01-Jun-2025 22:41:42 UTC] Automatic updates complete.
+[02-Jun-2025 13:52:10 UTC] Automatic updates starting...
+[02-Jun-2025 13:52:13 UTC] Automatic updates complete.
