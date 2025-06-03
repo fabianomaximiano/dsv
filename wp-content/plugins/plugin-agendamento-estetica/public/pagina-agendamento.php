@@ -1,61 +1,52 @@
 <?php
 if (!defined('ABSPATH')) exit;
 
-function agend_formulario_agendamento() {
-    if (!is_user_logged_in()) {
-        wp_redirect(home_url('/cadastro-cliente'));
-        exit;
-    }
+get_header(); ?>
 
-    global $wpdb;
-    $user_id = get_current_user_id();
+<div class="container my-5">
+    <h2>Agende seu horário</h2>
+    <form method="post" action="">
+        <div class="form-group">
+            <label for="cliente_nome">Seu nome</label>
+            <input type="text" class="form-control" id="cliente_nome" name="cliente_nome" required>
+        </div>
 
-    // Buscar serviços ativos
-    $servicos = $wpdb->get_results("SELECT * FROM {$wpdb->prefix}agend_servicos ORDER BY nome");
+        <div class="form-group">
+            <label>Serviços</label><br>
+            <?php
+            global $wpdb;
+            $servicos = $wpdb->get_results("SELECT id, nome, duracao FROM {$wpdb->prefix}agend_servicos");
+            foreach ($servicos as $servico) {
+                echo "<div class='form-check form-check-inline'>
+                        <input class='form-check-input' type='checkbox' name='servicos[]' value='{$servico->id}' id='servico_{$servico->id}'>
+                        <label class='form-check-label' for='servico_{$servico->id}'>{$servico->nome} ({$servico->duracao} min)</label>
+                      </div>";
+            }
+            ?>
+        </div>
 
-    // Processar agendamento
-    if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['agendar_servico'])) {
-        $servicos_selecionados = $_POST['servicos'] ?? [];
-        $data = sanitize_text_field($_POST['data']);
-        $hora = sanitize_text_field($_POST['hora']);
+        <div class="form-group">
+            <label for="profissional">Profissional</label>
+            <select class="form-control" id="profissional" name="profissional" required>
+                <option value="">Selecione</option>
+                <?php
+                $profissionais = $wpdb->get_results("SELECT id, nome FROM {$wpdb->prefix}agend_profissionais");
+                foreach ($profissionais as $prof) {
+                    echo "<option value='{$prof->id}'>{$prof->nome}</option>";
+                }
+                ?>
+            </select>
+        </div>
 
-        if (empty($servicos_selecionados) || empty($data) || empty($hora)) {
-            echo '<div class="notice notice-error"><p>Preencha todos os campos.</p></div>';
-        } else {
-            $data_hora = $data . ' ' . $hora . ':00';
+        <div class="form-group">
+            <label for="horario">Horário disponível</label>
+            <select class="form-control" id="horario" name="horario" required>
+                <option value="">Selecione os serviços e profissional</option>
+            </select>
+        </div>
 
-            $wpdb->insert("{$wpdb->prefix}agend_agendamentos", [
-                'cliente_id' => $user_id,
-                'servicos'   => implode(',', $servicos_selecionados),
-                'data_hora'  => $data_hora,
-                'status'     => 'pendente'
-            ]);
+        <button type="submit" class="btn btn-primary">Confirmar Agendamento</button>
+    </form>
+</div>
 
-            echo '<div class="notice notice-success"><p>Agendamento realizado com sucesso!</p></div>';
-        }
-    }
-
-    // Formulário
-    ?>
-    <div class="wrap">
-        <h2>Agendar Serviço</h2>
-        <form method="post">
-            <p><label>Selecione os serviços:</label><br>
-                <?php foreach ($servicos as $servico): ?>
-                    <label>
-                        <input type="checkbox" name="servicos[]" value="<?= esc_attr($servico->id) ?>"> <?= esc_html($servico->nome) ?> (<?= esc_html($servico->duracao) ?> min)
-                    </label><br>
-                <?php endforeach; ?>
-            </p>
-            <p>
-                <label>Data:<br><input type="date" name="data" required></label>
-            </p>
-            <p>
-                <label>Hora:<br><input type="time" name="hora" required></label>
-            </p>
-            <p><input type="submit" name="agendar_servico" class="button button-primary" value="Agendar"></p>
-        </form>
-    </div>
-    <?php
-}
-agend_formulario_agendamento();
+<?php get_footer(); ?>
