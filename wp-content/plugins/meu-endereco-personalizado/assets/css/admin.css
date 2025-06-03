@@ -1,0 +1,79 @@
+/* admin.css - Estilização da página de faixas de entrega */
+
+#mep-form {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccd0d4;
+    margin-bottom: 30px;
+    border-radius: 6px;
+}
+
+#mep-form .form-table th {
+    width: 200px;
+}
+
+#mep-form input[type="text"],
+#mep-form input[type="number"] {
+    width: 300px;
+    max-width: 100%;
+}
+
+#mep-form button[type="submit"] {
+    min-width: 120px;
+}
+
+#mep-faixas-lista tr td {
+    vertical-align: middle;
+}
+
+.mep-editar-faixa {
+    margin-right: 8px;
+}
+
+.mep-excluir-faixa {
+    color: #a00;
+}
+
+.mep-excluir-faixa:hover {
+    color: #dc3232;
+    text-decoration: underline;
+}
+
+.mep-editar-faixa:hover {
+    background-color: #0073aa;
+    color: #fff;
+}
+
+table.widefat td,
+table.widefat th {
+    text-align: left;
+}
+/* Spinner dentro do botão de envio */
+button.loading {
+    position: relative;
+    pointer-events: none;
+    opacity: 0.7;
+}
+
+button.loading::after {
+    content: "";
+    position: absolute;
+    right: -25px;
+    top: 50%;
+    margin-top: -8px;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #ccc;
+    border-top-color: #0073aa;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* Destaque na linha em edição */
+#mep-faixas-lista tr.editando {
+    background-color: #e0f7ff !important;
+}

@@ -19,7 +19,7 @@
 
 # Configuration
 wp-config.php
-wp-content/debug.log
+
 # Example themes
 /wp-content/themes/twenty*/
 
